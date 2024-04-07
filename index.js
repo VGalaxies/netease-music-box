@@ -30,7 +30,7 @@ const {
     totalPlayCount += data.playCount;
   });
 
-  const icon = ['🥇', '🥈', '🥉', '', '']
+  const icon = ['🥇', '🥈', '🥉', '🏅', '🏅']
 
   const lines = weekData.slice(0, 5).reduce((prev, cur, index) => {
     const playCount = cur.playCount;
